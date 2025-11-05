@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Croxx Enquiry</title>
+    <meta name="description" content="Submit an enquiry to get an estimated quote for Croxx Mag Repairs services.">
+    <meta name="keywords" content="enquiry, quote, rim repair, aluminium welding, polishing, diamond cutting, wheel alignment, Boksburg">
+    <!-- Site stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="Index-title"><h1>Croxx</h1></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="proposal.html">Proposal</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-content">
+            <h1 class="page-title">ENQUIRY</h1>
+            <p>Enter your details and select a service to get an estimated cost.</p>
+
+            <form id="enquiryForm">
+                <label for="name">Name</label>
+                <input type="text" id="name" required placeholder="Your Name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" required placeholder="Your Email">
+
+                <label for="service">Service</label>
+                <select id="service" required>
+                    <option value="">Select a Service</option>
+                    <option value="straightening">Straightening</option>
+                    <option value="welding">Aluminium Welding</option>
+                    <option value="polishing">Rim Polishing</option>
+                    <option value="diamond">Diamond Cutting</option>
+                    <option value="alignment">Wheel Alignment</option>
+                </select>
+
+                <button type="submit">Get Quote</button>
+            </form>
+
+            <div id="quoteResponse" style="margin-top:1rem;"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Croxx POE. All rights reserved. | <a href="https://github.com/AtticusM-Main/Croxx_POE" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+    </footer>
+    <!-- Site scripts -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
